@@ -74,7 +74,7 @@ public class Poems extends RESTService {
       info = @Info(title = "8", version = "",
           description = "",
           termsOfService = "",
-          contact = @Contact(name = "me", email = "CAEAddress@gmail.com") ,
+          contact = @Contact(name = "meee", email = "CAEAddress@gmail.com") ,
           license = @License(name = "BSD",
               url = "https://github.com/CAETESTRWTH/microservice-8/blob/master/LICENSE.txt") ) )
   @Path("/")
