@@ -120,7 +120,7 @@ public class Poems extends RESTService {
 JSONArray a = new JSONArray();
       
 JSONObject songJson = new JSONObject();
-            songJson.put("text", result.getString("title"));
+            songJson.put("text", "");
 
     }
     return null;
