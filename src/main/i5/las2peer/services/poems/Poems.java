@@ -71,10 +71,10 @@ public class Poems extends RESTService {
 
   @Api
   @SwaggerDefinition(
-      info = @Info(title = "8", version = "$Metadata_Version$",
-          description = "$Metadata_Description$",
-          termsOfService = "$Metadata_Terms$",
-          contact = @Contact(name = "", email = "CAEAddress@gmail.com") ,
+      info = @Info(title = "8", version = "",
+          description = "",
+          termsOfService = "",
+          contact = @Contact(name = "me", email = "CAEAddress@gmail.com") ,
           license = @License(name = "BSD",
               url = "https://github.com/CAETESTRWTH/microservice-8/blob/master/LICENSE.txt") ) )
   @Path("/")
