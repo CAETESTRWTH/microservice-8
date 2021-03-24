@@ -117,7 +117,7 @@ public class Poems extends RESTService {
     boolean response_condition = true;
     if(response_condition) {
       JSONObject result = new JSONObject();
-
+JSONArray a = new JSONArray();
       
 
       return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build();
