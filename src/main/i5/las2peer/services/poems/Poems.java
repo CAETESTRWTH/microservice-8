@@ -119,8 +119,8 @@ public class Poems extends RESTService {
       JSONObject result = new JSONObject();
 JSONArray a = new JSONArray();
       
-
-             return Response.ok(a.toJSONString()).build();
+JSONObject songJson = new JSONObject();
+            songJson.put("text", result.getString("title"));
 
     }
     return null;
