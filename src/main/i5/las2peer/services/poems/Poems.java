@@ -120,7 +120,8 @@ public class Poems extends RESTService {
 JSONArray a = new JSONArray();
       
 
-      return Response.status(HttpURLConnection.HTTP_OK).entity(result.toJSONString()).build();
+             return Response.ok(a.toJSONString()).build();
+
     }
     return null;
   }
