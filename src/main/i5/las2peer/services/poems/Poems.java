@@ -120,7 +120,10 @@ public class Poems extends RESTService {
 JSONArray a = new JSONArray();
       
 JSONObject temp = new JSONObject();
-            temp.put("text", "poemsMan benötigt keine allzu überangende Seele um zu verstehen, dass es hier auf Erden keine wahrhaftige und beständige Freude gibt, dass all unsere Vergnügungen nichts weiter als Blendwerk sind, dass unsere Leiden unendlich sind und dass schliesslich der Tod der uns jeden Augenblick bedroht uns unausbringlich nach wenigen Jahren in die entsetzliche Notlage bringen muss auf ewig entweder vernichtet oder unglücklich zu werden. Zwischen uns und der Hölle oder dem Himmel gibt es nur das Leben was die vergänglichte Sache de Welt ist.");
+            temp.put("text", "poemsMan benötigt keine allzu überangende Seele um zu verstehen, dass es hier auf Erden keine wahrhaftige und beständige Freude gibt, dass all unsere Vergnügungen nichts weiter als Blendwerk sind, dass unsere Leiden unendlich sind und dass schliesslich der Tod der uns jeden Augenblick bedroht uns unausbringlich nach wenigen Jahren in die entsetzliche Notlage bringen muss auf ewig entweder vernichtet oder unglücklich zu werden. Zwischen uns und der Hölle oder dem Himmel gibt es nur das Leben was die vergänglichte Sache de Welt ist."); 
+ 
+JSONObject temp1 = new JSONObject();
+            temp1.put("text", "poemsMan benötigt keine allzu überangende Seele um zu verstehen, dass es hier auf Erden keine wahrhaftige und beständige Freude gibt, dass all unsere Vergnügungen nichts weiter als Blendwerk sind, dass unsere Leiden unendlich sind und dass schliesslich der Tod der uns jeden Augenblick bedroht uns unausbringlich nach wenigen Jahren in die entsetzliche Notlage bringen muss auf ewig entweder vernichtet oder unglücklich zu werden. Zwischen uns und der Hölle oder dem Himmel gibt es nur das Leben was die vergänglichte Sache de Welt ist.");
 
     }
     return null;
